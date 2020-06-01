@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EAFM-Projects</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Hao Wu, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="Hao Wu RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/fontello-codes.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Hao Wu">
+    <meta name="og:url" content="papers.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hao Wu">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="papers.html">
+    
+        <meta name="twitter:image" content="">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar container"> 
+            <a id="author-name" class="alignable pull-left" href="index.html">                
+                <div class="profile">
+                    <img class="profile-picture" src="icon.bmp" />
+                <div> &nbsp EAFM</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                <li class="alignable pull-left nav-list"><a href="people.html">People</a></li>
+                <li class="alignable pull-left nav-list"><a href="projects.html">Projects</a></li>
+                <li class="alignable pull-left nav-list"><a target="_blank" href="events.html">Events</a></li>
+                <li class="alignable pull-left nav-list"><a target="_blank" href="colloquia.html">Colloquia</a></li>
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+
+    <section id="projects">
+        <div class="container content contact">
+            <h2 id="papers">Projects </h2>  
+            <h5>(<i class="icon-github-circled"></i>:code, <i class="icon-spin4 animate-spin"></i>:progressing, <i class="icon-file-pdf"></i>:papers) </h5>
+            <ul id="Projects">
+                <li class="item"> 
+                    <h4><a href="https://github.com/classicwuhao/maxuse">QMaxUSE<i class="icon-github-circled"></i><i class="icon-spin4 animate-spin"></i></a> </h4> 
+                    <p>QMaxUSE is an automatic tool that allows users to issue a set of queries over UML class diagrams and OCL constraints. 
+                        The new algorithms used by QMaxUSE break large and complex models into multiple queries that can be verified concurrently. 
+                        Currently, QMaxUSE has its own query langauges, is under development and will be released for testing.
+                </li>
+                <hr>
+                <li class="item">
+                    <h4><a href="https://github.com/classicwuhao/maxuse">MaxUSE<i class="icon-github-circled"></i><i class="icon-file-pdf"></i></a></h4>
+                    MaxUSE is an automatic tool that finds the set of achievable features and constraint conflicts for inconsistent metamodels (UML class diagrams). 
+                    MaxUSE allows users to freely rank individual model features or use automatic ranking. 
+                    MaxUSE integrates USE modelling tool with <a href="https://github.com/Z3Prover/z3">Z3 SMT Solver</a>. 
+                    It currently uses <a href="https://github.com/classicwuhao/uran">Uran</a> as its solving engine to interact with Z3.</p>
+                </li>
+                <hr>
+                <li class="item">
+                    <h4><a href="https://github.com/classicwuhao/uran">Uran<i class="icon-github-circled"></i></a></h4>
+                    Uran provides Java APIs for generating standard SMT2 formulas. Though Z3 Java API does the same thing, Uran differs by giving full control of generated SMT formulas. 
+                    Thus, it is very well suited for debugging purpose. Currently, uran supports generating different kinds of formulas including: boolean-circuit gate (CNF), quantifiers, arithmetic (linear inequalities.). It now uses Z3 as its back-end solver.  
+                    Uran can be considered as an engine that you could place in between solvers and your own specification language, and seperate your code from underlying solvers.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+		<hr />
+		<p style="text-align: center; margin-bottom: 10px">
+		<a href="https://jekyllrb.com/" style="color: black"><small>@ 2019-2020 EMFA. All rights reserved. Built with Jekyll.</small></a>
+		</p>    
+    </div>
+</body>
+<footer>
+</footer>
