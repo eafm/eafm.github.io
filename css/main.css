@@ -35,6 +35,7 @@ table tr td{border:0px solid #cccccc;text-align:left;margin:0;padding:6px 13px}
 table tr th :first-child,table tr td :first-child{margin:0}table tr th :last-child,table tr td :last-child{margin:0}
 table tr.scheduled{background-color:rgba(54, 113, 241, 0.486)}
 .projects tr td:hover{background-color:rgba(102, 156, 236, 0.692)}
+.projects tr td{background-color:white}
 .projects a{text-decoration:none;color:rgba(0, 0, 0, 0.692)}
 ul.photo-list {
     list-style-type: none; list-style-position: inside;
